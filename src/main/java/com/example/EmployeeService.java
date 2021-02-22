@@ -14,12 +14,12 @@ public interface EmployeeService {
     Employee getEmployee(@WebParam(name = "id") int id);
 
     @WebMethod
-    Employee updateEmployee(@WebParam(name = "id") int id,@WebParam(name = "first_name") String name);
+    Employee updateEmployee(@WebParam(name = "id") int id, @WebParam(name = "first_name") String name);
 
     @WebMethod
     boolean deleteEmployee(@WebParam(name = "id") int id);
 
     @WebMethod
-    Employee addEmployee(@WebParam(name = "id") int id,@WebParam(name = "first_name") String name);
+    Employee addEmployee(@WebParam(name = "id") int id, @WebParam(name = "first_name") String name);
 
 }

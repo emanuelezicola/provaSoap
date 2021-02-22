@@ -1,7 +1,6 @@
 package com.example;
 
 import javax.jws.WebService;
-import javax.xml.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
