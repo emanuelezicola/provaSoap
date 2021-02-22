@@ -1,6 +1,7 @@
 package com.example;
 
 import javax.jws.WebService;
+import javax.xml.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -14,6 +15,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         this.employees.add(new Employee(1, "Emanuele Zicola"));
         this.employees.add(new Employee(2, "Vincenza Dell'Aversana"));
         this.employees.add(new Employee(3, "Lorenzo Pompili"));
+        this.employees.add(new Employee(4,"Diego Gettatelli"));
     }
 
     @Override
